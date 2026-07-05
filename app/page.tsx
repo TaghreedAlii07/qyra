@@ -264,8 +264,8 @@ export default function Home() {
             </p>
 
             <div className="contact-info">
-              <a href="mailto:hello@qyra.tech">hello@qyra.tech</a>
-              <a href="tel:+966500000000">+966 50 000 0000</a>
+              <a href="mailto:info@qyratech.io">info@qyratech.io</a>
+              <a href="tel:+966508344011">+966 508344011</a>
             </div>
           </div>
 
