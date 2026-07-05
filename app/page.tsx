@@ -3,6 +3,7 @@ import Image from "next/image";
 import CursorGlow from "./components/CursorGlow";
 import ScrollReveal from "./components/ScrollReveal";
 import { Headset } from "lucide-react";
+import ContactForm from "./components/ContactForm";
 
 export default function Home() {
   return (
@@ -269,36 +270,7 @@ export default function Home() {
             </div>
           </div>
 
-          <form className="contact-form reveal">
-            <label>
-              Name
-              <input type="text" placeholder="Your name" />
-            </label>
-
-            <label>
-              Email
-              <input type="email" placeholder="your@email.com" />
-            </label>
-
-            <label>
-              Project Type
-              <select defaultValue="">
-                <option value="" disabled>Select a service</option>
-                <option>Corporate Website</option>
-                <option>E-Commerce Solution</option>
-                <option>UI / UX Design</option>
-                <option>Business System</option>
-                <option>Data Solution</option>
-              </select>
-            </label>
-
-            <label>
-              Message
-              <textarea placeholder="Tell us about your project" rows={5} />
-            </label>
-
-            <button type="submit">Send Message</button>
-          </form>
+          <ContactForm />
         </div>
       </section>
 
